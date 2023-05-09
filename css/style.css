@@ -18,6 +18,7 @@ body{
 .logo{
     width: 100px;
 }
+<<<<<<< HEAD
 .search-form{
 
     display: flex ;
@@ -48,6 +49,7 @@ body{
     margin: 10px;
     color: white;
     border-radius: 5px;
+    padding: 10px;
 
 }
 .news{
@@ -56,3 +58,13 @@ body{
     align-items: center;
 }
 
+=======
+.justify {
+    display: flex;
+    justify-content: space-around;
+
+}
+.color{
+    color:#05685e
+}
+>>>>>>> a0af16e5aec5359d5cd8682bf9f53ad2a32f7b3a

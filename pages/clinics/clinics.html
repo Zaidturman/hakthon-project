@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="clinics.css">
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/style.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <nav>
@@ -17,12 +18,9 @@
 
         <aside class="aside">
            <h1>Clinics Names</h1>
-           <ul>
-             <li>name1</li>
-             <li>name2</li>
-             <li>name3</li>
-             <li>name4</li>
-             <li>name5</li>
+           <button type="button" class="btn btn-primary" onclick="load()">Submit</button>
+
+           <ul >
              
            </ul>
         </aside>
@@ -50,7 +48,7 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="button" class="btn btn-primary" onclick="savedata()">Submit</button>
           </form>
         </div>
    </main>
