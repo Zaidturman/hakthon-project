@@ -15,3 +15,44 @@ body{
     background-color: var(--main--color) !important;
     color: var(--sec--color);
 }
+.logo{
+    width: 100px;
+}
+.search-form{
+
+    display: flex ;
+    justify-content: center ;
+}
+.main{
+    background-color: var(--main--color);
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+.sec-nav{
+    background-color: var(--sec--color);
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   
+    
+}
+.sec-nav a{
+    margin: 10px;
+}
+
+
+.aside{
+    background-color: var(--sec--color);
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+
+}
+.news{
+    display: flex;
+    justify-self: start;
+    align-items: center;
+}
+
