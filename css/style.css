@@ -1,0 +1,17 @@
+*{
+
+}
+body{
+
+}
+
+:root{
+    --main--color: #daf8f4;
+    --sec--color:#05685e;
+}
+
+
+.main-nav{
+    background-color: var(--main--color) !important;
+    color: var(--sec--color);
+}
