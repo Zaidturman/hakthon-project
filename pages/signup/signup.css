@@ -8,7 +8,7 @@ body{
     --dark:#daf8f4 ;
     --ndark:#05685e
 }
-.nav-login{
+.nav-sin{
     background-color: var(--dark);
     color: var(--ndark);
     display: flex;
@@ -37,6 +37,11 @@ body{
 .main{
     background-color: var(--ndark);
     margin: 0;
+   
+}
+.ma{
+    display: flex;
+    justify-content: space-around;
 }
 .counter{
     
@@ -46,12 +51,19 @@ body{
     margin: 0;
 }
 
-h1{
+.h1{
     padding-top: 10px;
     display: flex;
     justify-content:center;
    
     color: white;
+}
+.h2{
+    display: flex;
+    justify-content:center;
+   
+    color: white;
+
 }
 .label{ 
     display: flex;
@@ -72,23 +84,27 @@ h1{
     color: white;
     margin-left: 430px;
 }
-a{
-    text-decoration: none;
-    color: white !important;
+.div1{
+    display: flex;
+    justify-content: center;
+    
 }
-.container{
-    background-color: var(--sec--color);
-}
+
 label{
-    color : white;
-    font-weight: bold;
+    color: white;
+    font-size: larger;
+    margin-right: 10px;
+}
+.div2{
+   
+    display: flex;
+    justify-content: space-around;
 }
 .btn{
+    
+}
+.butt{
     display: flex;
-    justify-content:end;
+    justify-content: center;
 }
 
-.back{
-    color: var(--sec--color) !important;
-
-}

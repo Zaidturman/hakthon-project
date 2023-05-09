@@ -74,3 +74,10 @@ input {
 h1{
     text-align: center;
 }
+.a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--sec--color) !important;
+    font-weight: bold;
+}
