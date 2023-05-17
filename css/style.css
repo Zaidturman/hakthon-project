@@ -1,49 +1,83 @@
-*{
+* {}
 
-}
-body{
+body {}
 
-}
-
-:root{
-    --main--color: #daf8f4;
-    --sec--color:#05685e;
+:root {
+    --main--color: rgb(218, 248, 244);
+    --sec--color: rgb(5, 104, 94);
 }
 
 
-.main-nav{
+.main-nav {
     background-color: var(--main--color) !important;
     color: var(--sec--color);
 }
-.logo{
+
+.logo {
     width: 100px;
 }
-.search-form{
 
-    display: flex ;
-    justify-content: center ;
+.search-form {
+
+    display: flex;
+    justify-content: center;
 }
-.main{
-    background-color: var(--main--color);
+
+.main {
+
     height: 80vh;
     display: flex;
     justify-content: space-around;
+    background-image: url(../imgs/image14.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
 }
-.sec-nav{
+
+.main button {
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    padding: 2rem;
+    margin: 15px;
+    border: 2px solid var(--sec--color);
+    border-radius: 5px;
+
+
+    background-color: rgba(218, 248, 244, 0.486);
+
+
+}
+
+.main button:hover {
+
+
+
+    background-color: rgba(5, 104, 94, 0.534);
+    border: 2px solid var(--main--color);
+
+
+
+
+}
+
+.sec-nav {
     background-color: var(--sec--color);
-    color:white;
+    color: white;
     display: flex;
     justify-content: center;
     padding: 10px;
-   
-    
+
+
 }
-.sec-nav a{
+
+.sec-nav a {
     margin: 10px;
 }
 
 
-.aside{
+.aside {
     background-color: var(--sec--color);
     margin: 10px;
     color: white;
@@ -51,7 +85,8 @@ body{
     padding: 10px;
 
 }
-.news{
+
+.news {
     display: flex;
     justify-self: start;
     align-items: center;
@@ -62,20 +97,27 @@ body{
     justify-content: space-around;
 
 }
-.color{
-    color:#05685e
+
+.color {
+    color: #05685e
 }
-.back{
+
+.back {
     display: flex;
     align-items: center;
     direction: none;
 }
-a{
+
+a {
     text-decoration: none;
-    color :white;
+    color: white;
     font-weight: bold;
 
 }
-a:hover{
-    color :var(--main--color);
+
+a:hover {
+    color: var(--main--color);
 }
+
+
+
