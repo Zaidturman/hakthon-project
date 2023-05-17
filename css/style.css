@@ -4,7 +4,7 @@ body {}
 
 :root {
     --main--color: rgb(218, 248, 244);
-    --sec--color: rgb(5, 104, 94);
+    --sec--color: #05685e;
 }
 
 
@@ -28,7 +28,7 @@ body {}
     height: 80vh;
     display: flex;
     justify-content: space-around;
-    background-image: url(../imgs/image14.jpeg);
+    background-image: url(../imgs/image14.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

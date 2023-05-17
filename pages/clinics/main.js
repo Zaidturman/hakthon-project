@@ -26,54 +26,6 @@ function savedata() {
 }
 
 
-// this is code to return data in firebase 
-
-
-/* let asidebar = document.getElementById("asidebar");
-let res = [];
-
-let myRequesr = new XMLHttpRequest();
-myRequesr.open(
-  "GET",
-  "https://hakthin-project-default-rtdb.firebaseio.com/clinec.json"
-);
-myRequesr.send();
-console.log(myRequesr);
-
-myRequesr.onreadystatechange = function () {
-  console.log(myRequesr.readyState);
-  console.log(myRequesr.status);
-
-  if (myRequesr.readyState === 4 && myRequesr.status === 200) {
-    //console.log(this.responseText)
-    let jsData = JSON.parse(this.responseText);
-    //console.log(jsData)
-    for (let i = 0; i < 4; i++) {
-      res[i] = jsData[i].name;
-
-      /*  let repoName=document.createTextNode(jsData[i].name) 
-            asidebar.appendChild(repoName);
-
-            document.body.appendChild(asidebar)*/
- /*        }
-        console.log(res[0]);
-  }
-};
- */ */
-/*     fetch('https://hakthin-project-default-rtdb.firebaseio.com/clinec.json').then((result)=>{
-       console.log(result);
-       let myData = result.json();
-       console.log(myData);
-       return myData;
-    })
-    .then((full) => {
-        full.length = 10 ;
-        return full 
-    })
-    .then((ten)=>{
-        console.log(ten[0].name);
-    }); 
- */
  let result = [];
 function load(){
     fetch('https://hakthin-project-default-rtdb.firebaseio.com/clinec.json')
@@ -94,16 +46,21 @@ function load(){
             })
             
         }
-        console.log(result) 
-        
         
         this.result = result
     })
     
 
 }
- 
 
-/*  const label = localStorage.getItem('label')
 
- document.getElementById('ClinicsNames').innerHTML=label */
+
+let clinicnames = document.getElementById('cliniclist')
+
+for(let i=0 ; i<result.length;i++){
+  let li = document.createElement('li');
+  li.innerHTML = result[i].name;
+  clinicnames.innerHTML(li)
+
+  console.log(result[i].id.name)
+}

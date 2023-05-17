@@ -2,24 +2,43 @@
     margin: 0;
     padding:0;
 }
+:root {
+    --main--color: rgb(218, 248, 244);
+    --sec--color: rgb(5, 104, 94);
+}
 .register{
     width: 50%;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
     color: white;
+    background-color: rgba(5, 104, 94, 0.435);
 
+}
+.aside{
+    width:20%;
+
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(5, 104, 94, 0.435);
 }
 a{
     text-decoration: none;
     color: var(--sec--color) !important;
 }
-.main-nav{
-    background-image: url(../imgs/image1.jpeg) !important;
+
+.main {
+
+   
+   background-image:url(../../imgs/image3.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     align-items: center;
     display: flex;
     justify-content: space-around;
+    height: 90vh;
+
 }

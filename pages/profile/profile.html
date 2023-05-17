@@ -1,57 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil</title>
-    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <title>Personal Profile Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+    }
 
-    <link rel="stylesheet" href="profil.css">
-    <link rel="stylesheet" href="https://icons.getbootstrap.com">
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .profile-header {
+      background-color: #05685e;
+      color: #ffffff;
+      padding: 20px;
+    }
+
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      margin-bottom: 20px;
+    }
+    .profile-picture img{
+        width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .profile-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .profile-info {
+      margin-bottom: 20px;
+    }
+
+    .profile-info span {
+      margin-right: 10px;
+    }
+
+    .profile-content {
+      background-color: #ffffff;
+      padding: 20px;
+    }
+
+    .post {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e9ebee;
+    }
+
+    .post-meta {
+      margin-bottom: 10px;
+      color: #888888;
+    }
+
+    .post-content {
+      color: #333333;
+    }
+    
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table td, table th {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #05685e;
+    }
+
+    table th {
+      background-color: #05685e;
+      color: #ffffff;
+    }
+
+    .request-message {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #05685e;
+      color: #ffffff;
+    }
+    .profile {
+      width: 90%;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
-
-<body class="main1">
-    <nav class="navbar nav-login">
-
-        <div>
-            <img class="img" src="../../imgs/logo-removebg-preview.png" alt="">
-        </div>
-
-
-    </nav>
-    <h1 class="h1">Profile</h1>
-
-    <div class="main">
-
-        <div class="divimg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="user"
-                viewBox="0 0  16 16">
-                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                <path fill-rule="evenodd"
-                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-            </svg>
-
-
-            <label>Name</label>
-
-
-            <label>Email</label>
-
-
-            <label>Type</label>
-        </div>
-
-        <div>
-            <button type="button" class="btn btn-outline-light">Edit profil</button>
-
-
-            <button type="button" class="btn btn-outline-light">Requst</button>
-
-
-        </div>
+<body>
+  <div class="profile">
+    <div class="profile-header">
+      <div class="profile-picture">
+        <img src="../../imgs/logo.jpg" alt="" />
+      </div>
+      <div class="profile-name">John Doe</div>
+      <div class="profile-info">
+        <span>Location: New York</span>
+        <span>Birthdate: January 1, 1990</span>
+      </div>
     </div>
-</body>
+    <div class="">
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Appointment</th>
+      </tr>
+      <tr>
+        <td>2023-05-18</td>
+        <td>09:00 AM</td>
+        <td>Meeting with Client</td>
+      </tr>
+      <tr>
+        <td>2023-05-20</td>
+        <td>02:30 PM</td>
+        <td>Doctor's Appointment</td>
+      </tr>
+      <tr>
+        <td>2023-05-22</td>
+        <td>11:00 AM</td>
+        <td>Project Presentation</td>
+      </tr>
+    </table>
+  </div>
+  <div class="request-message">
+      <h3>Request a New Appointment</h3>
+      <p>Please fill out the form below to request a new appointment:</p>
+      <!-- Add your appointment request form here -->
+      
+    </div>
+    </div>
 
-</html
+    
+      
+</body>
+</html>

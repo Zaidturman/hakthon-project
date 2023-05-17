@@ -9,3 +9,18 @@
     justify-content: center;
 
 }
+.container{
+    background-color: var(--main--color);
+  
+    height:100vh;
+}
+.container img
+{
+    width: 50%;
+    margin: 15px;
+
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
