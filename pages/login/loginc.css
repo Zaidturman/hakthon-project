@@ -85,7 +85,11 @@ label{
 }
 .btn{
     display: flex;
-    justify-content:end;
+    justify-content:center;
+    width:120px !important;
+    height: 50px !important;
+    padding-top: 10px !important;
+    margin-left: 1px !important;
 }
 
 .back{
